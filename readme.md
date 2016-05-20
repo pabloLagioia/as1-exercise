@@ -46,7 +46,7 @@ UI
 The UI will be made of a dashboard that presents a list of inspection orders and a popup that will allow the user to create a new inspection order
 
 * Search box filter as you type the current list of inspection
-* Clicking the X on the inspection should mark it closed and remove it from the list
+* Clicking the X on the inspection should mark it closed and remove it from the list. To remove it from the list use the InspectionOrder.closed attribute.
 * New inspection & Report will open the popup to allow the user to create a new inspection order
 * Amount of vehicles in dashboard must be consistent
 
