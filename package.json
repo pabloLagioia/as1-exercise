@@ -1,0 +1,28 @@
+{
+  "name": "as1-exercise",
+  "version": "1.0.0",
+  "description": "AS test",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicasioc/as1-exercise.git"
+  },
+  "author": "Nicasio Cascudo",
+  "bugs": {
+    "url": "https://github.com/Nicasioc/as1-exercise/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-validator": "^2.20.4",
+    "mongoose": "^4.4.19",
+    "mongoose-auto-increment": "^5.0.1"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3"
+  }
+}
