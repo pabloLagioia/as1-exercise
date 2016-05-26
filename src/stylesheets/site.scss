@@ -1,1 +1,98 @@
 @import "bootstrap.scss";
+
+header {
+    background: -webkit-linear-gradient(#7c93b5 0%, #485467 100%);
+    background: -o-linear-gradient(#7c93b5 0%, #485467 100%);
+    background: linear-gradient(#7c93b5 0%, #485467 100%);
+    margin-bottom: 20px;
+    padding: 0 2%;
+    h1 {
+        margin: 0;
+    }
+}
+
+.actions {
+    
+    .btn-primary {
+        border-top: 1px solid rgba(255, 255, 255, 0.41);
+        background: -webkit-linear-gradient(#3984BD 0%, #2B6593 100%);
+        background: -o-linear-gradient(#3984BD 0%, #2B6593 100%);
+        background: linear-gradient(#3984BD 0%, #2B6593 100%);
+        font-weight: bold;
+        font-size: 1.7rem;
+        @media(max-width:767px){
+            float: right;
+            margin-top: 15px;
+        }
+    }
+    
+    .input-group {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.79);
+        border-radius: 3px;
+        position: relative;
+        width: 100%;
+    }
+    input {
+        color: #fff;
+        background: transparent;
+        padding: 0;        
+        border-color: #000;
+        border-left-color: transparent;
+        font-size: 1.8rem;
+        padding-left: 35px;
+        border-radius: 4px;
+        &:focus {
+            boder: 1px solid #296BA7
+        }
+    }
+    .input-group-addon {
+        color: #fff;
+        background: transparent;
+        border-color: #000;
+        font-size: 1.8rem;
+        padding: 0 7px;
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        padding-top: 6px;
+    }
+    
+}
+
+.list-head {
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+    padding-bottom: 4px;
+    margin: 0;
+}
+.ro-list {
+    font-weight: bold;
+    font-size: 1.5rem;     
+    .ro, .vehicle {
+        margin-top: 10px;
+    }
+    .type {
+        color: #217ECF;
+        padding: 20px 15px;
+        margin-top: 10px; 
+        box-shadow: 4px 4px 7px #000;
+        background: -webkit-linear-gradient(#F4F5F5 0%, #CECFD0 100%);
+        background: -o-linear-gradient(#F4F5F5 0%, #CECFD0 100%);
+        background: linear-gradient(#F4F5F5 0%, #CECFD0 100%);
+        font-size: 2rem;
+        .remove-btn {
+            cursor: pointer;
+        }        
+    }
+}
+
+.vehicle {
+    color: #5BE0FF;
+}
+
+.modal {
+    color: #000;
+    input {
+        color: #606060;
+    }
+}

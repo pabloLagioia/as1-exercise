@@ -42,7 +42,9 @@ gulp.task('build', ['concat', 'sass']);
 gulp.task('watch', function() {
   gulp.watch([
       'src/js/*.js',
-      'src/tags/*.tag'
+      'src/tags/*.tag',
+      'src/stylesheets/*.scss',
+      'src/stylesheets/**/*.scss'
   ], 
   ['build']);
 });

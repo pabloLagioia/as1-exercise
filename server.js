@@ -19,7 +19,7 @@ router.route('/orders')
 
 router.route('/orders/:orderNumber')
 .get(orders.get)
-.put(orders.save);
+.put(orders.update);
 
 router.route('/inspectionTypes/')
 .get(types.get);
