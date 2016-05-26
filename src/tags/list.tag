@@ -32,12 +32,20 @@
         return vehicle.year + " " + vehicle.make + " " + vehicle.model
     }
   
-    this.on("mount listUpdated", function() {
+    function updateList() {
         opts.api.orders.get()
             .done(function(res) {
                 self.items = res.items
                 self.update();
             });
+    }
+  
+    this.on("mount", function() {
+        updateList();
+    });
+    
+    opts.events.on("listUpdated", function() {
+        updateList();
     });
     
     remove(e) {

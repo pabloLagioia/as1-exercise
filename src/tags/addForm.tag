@@ -75,7 +75,7 @@
                     inspectionType:e.target.type.value,
                     note:e.target.notes.value,
                     vehicle : {
-                        year: e.target.year.value,
+                        year: parseInt(e.target.year.value),
                         make: e.target.make.value,
                         model: e.target.model.value
                     }
