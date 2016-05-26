@@ -1,7 +1,6 @@
 var orders = require('./routes/Orders');
 types = require('./routes/Types'),
 mongoose = require('mongoose'),
-autoIncrement = require('mongoose-auto-increment'),
 express = require('express'),
 bodyParser = require('body-parser'),
 expressValidator = require('express-validator'),

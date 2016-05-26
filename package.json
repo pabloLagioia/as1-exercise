@@ -15,14 +15,14 @@
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
     "express-validator": "^2.20.4",
-    "mongoose": "^4.4.19",
-    "mongoose-auto-increment": "^5.0.1"
+    "mongoose": "^4.4.19"
   },
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-sass": "^2.3.1",
-    "gulp-uglify": "^1.5.3"
+    "gulp-uglify": "^1.5.3",
+    "gulp-riot": "^0.5.1"
   }
 }

@@ -1,11 +1,11 @@
 'use strict';
  
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var riot = require('gulp-riot');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
 var del = require('del');
+var gulp = require('gulp');
+var concat = require('gulp-concat');
+var sass = require('gulp-sass');
+var uglify = require('gulp-uglify');
+var riot = require('gulp-riot');
 
 gulp.task('clean', function() {
     return del(['.temp', 'public/js', 'public/stylesheets']);
